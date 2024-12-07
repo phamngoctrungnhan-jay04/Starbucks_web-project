@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.navbar-container {
+  box-shadow: 0px 4px 5px 0px rgba(116, 29, 29, 0.75);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(116, 29, 29, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(116, 29, 29, 0.75);
+}
+.navbar {
+  max-width: 1560px;
+  padding: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navbar-left svg {
+  width: 50px;
+}
+.navbar-left div {
+  text-transform: uppercase;
+}
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar-left > * {
+  padding: 12px;
+}
+.navbar-left div:hover,
+.find-a-store:hover {
+  color: #00754a;
+}
+.find-a-store {
+  display: flex;
+  align-items: center;
+  width: 600;
+}
+.navbar-right > * {
+  padding: 12px;
+}
+.Log-in,
+.Become-a-member {
+  font-size: 400;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 5px 20px 5px 20px;
+}
+.Become-a-member {
+  background-color: black;
+  color: white;
+}
+.Become-a-member:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.Log-in:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 1560px;
+  margin: auto;
+}
+.product {
+  display: flex;
+  margin: 40px 150px;
+}
+.product-right img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.product-left,
+.product-right {
+  max-width: 50%;
+  width: 50%;
+}
+.product-left {
+  text-align: center;
+  margin: 40px 0;
+  padding: 5px 20px 5px 20px;
+}
+.product-bottom {
+  border: 1px solid black;
+  max-width: max-content;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+  margin: auto;
+}
+.product-bottom:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.product-title {
+  margin: auto;
+}
+.product-scription {
+  font-size: 19px;
+  margin: 40px 80px;
+}
+.product-title {
+  margin-top: 40px;
+}
+.product-title h2 {
+  font-size: 24px;
+}
+.product-text-on {
+  text-align: center;
+  margin: 50px 400px;
+  padding: 20px 80px 20px 80px;
+  object-fit: fill;
+}
+.content-container {
+  margin: auto;
+}
+.product-text-in {
+  text-align: center;
+  margin: 30px 400px;
+  padding: 20px 80px 20px 80px;
+  object-fit: fill;
+}
